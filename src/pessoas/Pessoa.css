@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: gray;
+
+}
+.container-pessoa{
+    display: flex;
+    background-color: rgb(207, 214, 214);
+    flex-direction: column;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    width: 60%;
+    margin: 10% auto auto auto;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.6);
+}
+.container-pessoa h1{
+    margin: 10px 0 0 2%;
+
+}
+.container-add{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(177, 176, 176);
+    align-items: center;
+    margin: 10px 10px 0 10px;
+}
+.container-add button{
+   border-radius:  100%;
+   border: 1px solid transparent;
+   height: 25px;
+   margin:0 5px 0 1%;
+   cursor: pointer;
+   color: black;
+}
+.container-add button:hover{
+    color: red;
+}
+.container-data{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 2%;
+}
+.container-data select{
+    width: 21%;
+    outline: none;
+}
+.container-model{
+    width:100%;
+    background-color:transparent;
+    position:fixed;
+    display:flex;
+   justify-content:center;
+    align-items:center;
+    height:100%;
+    z-index:3;
+    overlay:fixed;
+}
+.container-input{
+    background-color: rgb(182, 182, 182);
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    width:35%;
+    margin: 200px auto auto auto;
+    height: 120px;
+    border-radius: 10px;
+}
+.inputs input{
+    width: 37%;
+    border-radius: 3px;
+    outline: none;
+    border: transparent;
+}
+.inputs button{
+    border-radius: 3px;
+    outline: none;
+    border: transparent;
+    cursor: pointer;
+}
+.inputs button:hover{
+    background-color: red;
+    color: white;
+}
+.input-group{
+    display: flex;
+    flex-direction:column;
+    outline: none; 
+    margin-top: 0;
+    padding: 0;
+}
+.input-group h1{
+    padding:  0 0 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    width: 60%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction:row;
+    outline: none;
+    margin-top: 10px;
+}
+#close-btn{
+    width: 20px;
+    margin-left: 94%;
+    margin-top: 5px;
+    margin-bottom: 0;
+    padding: 0;
+    cursor: pointer;
+    border:transparent;
+}
+#close-btn:hover{
+   color: white;
+   background-color: red;
+   border:transparent;
+}
