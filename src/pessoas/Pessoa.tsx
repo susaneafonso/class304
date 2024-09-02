@@ -2,6 +2,7 @@ import { useRef, useState } from "react"
 import { IoMdPersonAdd, IoMdClose  } from "react-icons/io";
 import ReactDOM from 'react-dom'
 import Modal from 'react-modal'
+import {Link} from "react-router-dom"
 import "./Pessoa.css"
 
 export function Pessoa(){
@@ -76,7 +77,7 @@ export function Pessoa(){
                            <div className="inputs">
                               <input placeholder="nome" ref={name} style={{marginLeft:"10px"}}></input>
                               <input placeholder="idade" ref={age} style={{marginLeft:"5px"}}></input>
-                              <button onClick={teste} ref={btnAddData} style={{marginLeft:"25px"}}>adicionar</button>
+                              <button onClick={teste} ref={btnAddData} style={{marginLeft:"5%", marginRight:"2%"}}>adicionar</button>
                            </div>
                        </div>
                     </div>
@@ -94,6 +95,7 @@ export function Pessoa(){
                     <p>Somatório das idades :{sum}</p>   
                </div>
            </div>
+           <Link to="/" style={{display:"flex",margin:"30px 0 0 70%", color:"inherit"}}>Voltar</Link>
         </>
     )
 }

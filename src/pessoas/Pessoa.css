@@ -64,7 +64,7 @@ body{
     flex-direction: column;
     width:35%;
     margin: 200px auto auto auto;
-    height: 120px;
+    height: auto;
     border-radius: 10px;
 }
 .inputs input{
@@ -105,12 +105,12 @@ body{
     flex-direction:row;
     outline: none;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 #close-btn{
     width: 20px;
     margin-left: 94%;
     margin-top: 5px;
-    margin-bottom: 0;
     padding: 0;
     cursor: pointer;
     border:transparent;
